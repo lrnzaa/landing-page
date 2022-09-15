@@ -8,6 +8,7 @@ body{
     align-items: center;
     background-color: #000000;
     padding-top: 10px;
+    font-size: 18px;
 }
 
 .logo{
@@ -30,30 +31,48 @@ body{
     color: white;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .left-container-1{
     width: 50%;
+    padding-right: 10px;
     display: flex;
-    justify-content: center;
-
-    background-color: bisque;
+    justify-content: flex-end;
 }
 
 .text-container{
-    background-color: blueviolet;
-    width: 65%;
+    width: 80%;
 }
 
 .text-title{
-    font-size: 48px;
+    font-size: 44px;
     font-style: extra-bold;
+    height: auto;
+}
+
+.text-desc{
+    font-size: 18px;
 }
 
 .right-container-1{
     width: 50%;
+    padding-left: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color: aqua;
+}
+
+#buy-btn{
+    font-size: 18px;
+    box-sizing: border-box;
+    height: 35px;
+    width: 120px;
+    background-color: rgb(254, 255, 255);
+    border-radius: 8px;
+}
+
+#buy-btn:hover{
+    background-color: white;
+    box-shadow: 1px 1px #ffffffc4;
 }
